@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 8507106}
   - component: {fileID: 8507105}
   m_Layer: 0
-  m_Name: MusicEngine
+  m_Name: BGM_MusicEngine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
   - Name: 
     UnitPerBeat: 4
     UnitPerBar: 16
-    Tempo: 170
+    Tempo: 105
     StartBar: 0
     StartTimeSamples: 0
     LoopType: 0
@@ -171,9 +171,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e7f31ee43920e041b7bf93c64a05a4f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 50e7c290c7a63a64799a857c2ec4fe81, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -767,7 +767,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2e2d6a3c49439ff46ad846e4db2640df, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
