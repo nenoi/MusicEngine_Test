@@ -14,7 +14,10 @@ public class ChangeColor : MonoBehaviour {
     }
 
     void Update() {
+        // IsJustChangedBar
+        // 小節が変わるタイミングを判定
         if (Music.IsPlaying && Music.IsJustChangedBar()) {
+            // オブジェクトの色を変更する
             Color color = new Color(
                 Random.Range(0.5f, 0.8f),
                 Random.Range(0.5f, 0.8f),

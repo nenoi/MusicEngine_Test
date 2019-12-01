@@ -12,7 +12,10 @@ public class ChangeScale : MonoBehaviour {
     }
 
     void Update() {
+        // IsJustChangedBeat
+        // ビートが打たれたタイミングを判定
         if (Music.IsPlaying && Music.IsJustChangedBeat()) {
+            // オブジェクトのサイズを変更し、すぐ戻す
             this.gameObject.transform.DOScale(this.baseScale * this.Rate, 0.0f);
             this.gameObject.transform.DOScale(this.baseScale, this.Time);
         }
